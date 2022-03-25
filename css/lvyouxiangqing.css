@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fl{
+    float: left;
+}
+header{
+    width: 100%;
+    height: 5.26rem;
+}
+.img,.img>img{
+    width: 100%;
+    height: 5.26rem;
+}
+.dw{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1.28rem;
+    background-color: rgba(0,0,0,0.3);
+}
+.dwn{
+    width: 100%;
+    height: 0.88rem;
+    /* margin-top: 0.4rem; */
+    /* background-color: rgba(0,0,0,0.3); */
+}
+.zj{
+    width: 25%;
+    height: 0.86rem;
+}
+.iconfont{
+    padding-left: 0.42rem;
+}
+.dtxt{
+    width: 50%;
+    font-size:0.36rem;
+    height: 0.86rem;
+    /* line-height: 0.86rem; */
+    text-align: center;
+}
+.dtxt1{
+    width:25%;
+    height: 0.86rem;
+    line-height: 0.52rem;
+    font-size:0.30rem;
+    margin-left: -0.12rem;
+}
+.dma{
+    position: absolute;
+    top:4.86rem;
+    width: 100%;
+    height: 0.4rem;
+    background-color: rgba(0,0,0,0.3);
+}
+.dman1{
+    color: white;
+    font-size: 0.24rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    padding-left: 0.4rem;
+}
+.jswz{
+    margin:0.15rem 0.48rem;
+    font-size: 0.33rem;
+    font-family: "SourceHanSansCN";
+    color: rgb( 33, 33, 33 );
+    text-align: left;
+}
+.imgs{
+    margin-left: 0.48rem;
+}
+.imgs>img{
+    width: 1.56rem;
+    height: 0.22rem;
+}
+.jg{
+    height: 0.75rem;
+    font-size: 0.4rem;
+    font-family: "Arial";
+    color: rgb( 255, 68, 1 );
+    margin-left: 0.48rem;
+    margin-top: 0.1rem;
+}
+.border,.border,.border{
+    padding: 0.02rem 0.06rem;
+    border: .0133rem solid #999999;
+    color: #999999;
+    background-color: #EEEEEE;
+    font-size: 0.20rem;
+    font-family: "Microsoft YaHei";
+    margin-top: 0.08rem;
+    margin-left:0.2rem;
+    /* transform: scaleY(0.5); */
+}
+.hsbf{
+    height: 1.98rem;
+    width: 100%;
+    background-color: #FDEACC;
+
+}
+.zbox{
+    padding-top: 0.4rem;
+}
+.zc{
+    margin-left: 0.48rem;
+}
+.lj{
+    border-radius: 10%;
+    color: #EF4545;
+    width: 0.6rem;
+    font-size: 0.26rem;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    text-align: center;
+    border: 0.0133rem solid #EF4545;
+}
+.yh{
+    border-radius: 10%;
+    color: #FDEACC;
+    margin-top: 0.4rem;
+    width: 0.6rem;
+    font-size: 0.26rem;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    text-align: center;
+    background-color: #EF4545;
+}
+ul{
+    margin-left: 0.4rem;
+}
+li{
+    font-size: 0.20rem;
+    color: #666666;
+}
+.eee{
+    width: 100%;
+    height: 0.18rem;
+    background-color: #F4F4F4;
+}
+.dp{
+    height: 4.78rem;
+    width: 100%;
+    border-bottom: .0133rem solid #CCCCCC;
+    border-top: .0133rem solid #CCCCCC;
+
+}
+.dpn{
+    height: 4.3rem;
+    margin:0.24rem 0.48rem;
+}
+.dpn{
+    color: #666666;
+    font-size: 0.24rem;
+    font-family: "SourceHanSansCN";
+}
+.dpn>span:nth-child(1){
+    color: rgb( 255, 68, 1 );
+    font-size: 0.3rem;
+}
+.dpn>span:nth-child(2){
+    /* color: rgb( 255, 68, 1 ); */
+    font-size: 0.3rem;
+}
+.dpn>span:nth-child(3){
+    /* color: rgb( 255, 68, 1 ); */
+    font-size: 0.3rem;
+}
+.dpn>span:nth-child(4){
+    color: rgb( 255, 68, 1 );
+    /* font-size: 0.3rem; */
+}
+.pf{
+    padding-bottom: 0.36rem;
+    margin-top: 0.2rem;
+    border-bottom: 0.0133rem solid #CCCCCC;
+}
+.pf>div>span{
+    padding: 0.02rem;
+    background-color: #F5F5F5;
+    border-radius: 0.05rem;
+}
+.nr{
+    width: 100%;
+    height:0.4rem;
+}
+.pl{
+    padding-top: 0.24rem;
+    height:2.46rem;
+    width:6.54rem;
+    color: #666666;
+    font-size: 0.24rem;
+    font-family: "SourceHanSansCN";
+}
+.cksy{
+    width: 2.8rem;
+    height: 0.6rem;
+    margin: auto;
+    color: #1AB2DB;
+    border: 0.0133rem solid #1AB2DB;
+    line-height: 0.58rem;
+    text-align: center;
+    border-radius: 0.1rem;
+    margin-top: 0.24rem;
+}
+.dt{
+    height: 1.05rem;
+    width: 100%;
+}
+.dt>div{
+    width: 33.3%;
+    height: 1.06rem;
+    float: left;
+    line-height: 1.06rem;
+    text-align: center;
+    font-size: 0.3rem;
+    font-family: "SourceHanSansCN";
+    border-bottom: 0.0133rem solid #CCCCCC;
+}
+/* .dt>div:nth-child(1){
+    color: #34BADF;
+    height:0.99rem;
+    border-bottom: 0.08rem solid #F7C611;
+} */
+.cimg,.cimg>img{
+    width: 100%;
+    height: 17rem;
+}
+.gjr{
+    width: 100%;
+    height: 0.48rem;
+}
+.dlgh{
+    width: 100%;
+    height:14.36rem;
+}
+.twoday{
+    width: 0.76rem;
+    height: 5rem;
+    margin-top: 0.04rem;
+}
+.twoday>img{
+    width: 0.76rem;
+    /* height: 5rem; */
+}
+.jc{
+    width:0.14rem;
+    height:14.36rem;
+    margin-left: 0.04rem;
+}
+.jc>img{
+    width: 0.14rem;
+    height:14.36rem;
+}
+.mbd{
+    font-size: 0.24rem;
+    font-family: "SourceHanSansCN";
+    color: rgb( 102, 102, 102 );
+    width:6rem;
+    height: 0.34rem;
+}
+.sj{
+    border: 0.0133rem solid #CCCCCC;
+    padding: 0 0.02rem;
+    margin-left: 0.16rem;
+}
+.gjdiv{
+    width:0.76rem;
+    height:4.68rem;
+}
+.mddz{
+    margin-top: 0.2rem;
+}
+.mddimg{
+    width: 2.3rem;
+    height: 2rem;
+    border: 0.0133rem solid #CCCCCC;
+}
+.mddimg>img{
+    width: 2.3rem;
+    height: 2rem;
+    /* border: 0.0133rem solid #CCCCCC; */
+}
+.ld{
+    height: 13.6rem;
+    width: 0.39rem;
+    margin-left: 0.48rem;
+}
+.ld>img{
+    height: 0.41rem;
+    width: 0.39rem;
+}
+.yjsl{
+    width: 6.54rem;
+    font-size: 0.28rem;
+    font-family: "SourceHanSansCN";
+    color: rgb( 37, 37, 37 );
+    line-height: 1.25;
+    text-align: justify;
+    margin-left: 0.12rem;
+}
+.fy{
+    width: 6rem;
+    font-size:0.3rem;
+    color: rgb( 26, 178, 219 );
+    font-family: "SourceHanSansCN";
+}
+.zhbf{
+    width: 1.34rem;
+    height: 0.98rem;
+    border: 0.0133rem solid #CCCCCC;
+}
+.zhbf>img{
+    width: 1.34rem;
+    height: 0.98rem;
+}
+.sbw{
+    width: 3.38rem;
+    height: 1.02rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.38rem;
+    font-family: "SourceHanSansCN";
+    color: rgb( 255, 254, 254 );
+    background-color: #F1A30E;
+}
+  
+  
+  

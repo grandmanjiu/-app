@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fl{
+    float: left;
+}
+header{
+    width: 100%;
+    height: 1.28rem;
+    background-color: #134AAE;
+    color: white;
+}
+.gj{
+    height: 0.42rem;
+    width: 100%;
+}
+.zj{
+    width: 25%;
+    height: 0.86rem;
+}
+.iconfont{
+    padding-left: 0.42rem;
+}
+.dtxt{
+    width: 50%;
+    font-size:0.36rem;
+    height: 0.86rem;
+    /* line-height: 0.86rem; */
+    text-align: center;
+}
+.dtxt1{
+    width:10%;
+    height: 0.86rem;
+    line-height: 0.52rem;
+    font-size:0.30rem;
+    margin-left:8%;
+}
+.jt{
+    width:80%;
+    margin-left: 0.42rem;
+    margin-top: 0.16rem;
+    color: #9E9E9E;
+}
+.mb1{
+    margin-left: 0.42rem;
+    width:94%;
+    height: 5.24rem;
+}
+.lc,.lc>img{
+    width: 0.52rem;
+    height: 4.35rem;
+}
+.lt1{
+    width: 6.4rem;
+    height: 1.6rem;
+    background-size: 6.4rem 1.6rem;
+    background-image: url(../img/hzp-img/Browse-history/liaotiankuang.jpg);
+}
+.lttxt{
+    width: 4.4rem;
+    height:1.28rem;
+    margin-left: 0.4rem;
+    text-align: left;
+    font-size: 0.3rem;
+    font-family: "SourceHanSansCN";
+    color: rgb( 102, 102, 102 );
+}
+/* .js{
+    margin-top: 0.04rem;
+} */
+.jg{
+    margin-top: 0.08rem;
+    color: #F88411;
+}
+.ltimg{
+    width: 1.5rem;
+    height: 1.28rem;
+}
+.ltimg img{
+    width:1.5rem;
+    height:1.28rem;
+    border-radius: 10%;
+    /* border-radius: 40%; */
+}
+.lc1>img{
+    width: 0.52rem;
+    height: 0.46rem;
+}
+.lc2>img{
+    width: 0.52rem;
+    height: 2.4rem;
+}
+.db{
+    margin-top: 0.32rem;
+    width:7.5rem;
+    height:1rem;
+    background-color: #EDEDED;
+}
+.db1,.db2,.db3,.db4{
+    height: 1rem;
+    width:1.86rem;
+    float: left;
+}
+.dbn1 img{
+    height:0.67rem;
+    width:100%;
+}
+.dbtxt{
+    height: 0.33rem;
+    width:100%;
+    text-align: center;
+    font-size: 0.16rem;
+    margin-top: -0.15rem;
+}
