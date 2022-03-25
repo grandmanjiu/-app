@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+}
+.top{
+    width: 100%;
+    height: 1.01rem;
+    background-color: #1348AE;
+    position: relative;
+}
+.top img{
+    transform: scale(.5);
+}
+.top-left{
+    width: 1.5rem;
+    height: .7rem;
+    border: 2px solid #8DA7D6;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius:1rem ;
+    position: absolute;
+    top: .1rem;
+    left: 1.2rem;
+    color: white;
+    font-size: .2rem;
+display: flex;
+}
+.top-left img{
+    transform: scale(.5);
+    /* margin-top: -.05rem; */
+
+}
+.top-left span{
+line-height: .7rem;
+margin-left: .15rem;
+}
+.top-right{
+    width: 3rem;
+    height: .7rem;
+    border: 2px solid #8DA7D6;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius:1rem ;
+    position: absolute;
+    top: .1rem;
+    left: 2.75rem;
+    font-size: .2rem;
+    display: flex;
+}
+.top-right img{
+    transform: scale(.5);
+}
+.top-right span{
+    font-size: .24rem;
+    line-height: .7rem;
+    color: #8DA7D6;
+}
+.one{
+    width: 1rem;
+    height: 2rem;
+    border-top:3px solid #F8C511 ;
+    text-align: center;
+    color: #1348AE;
+    background-color: white;
+}
+.list{
+display: flex;
+background-color: #F5F5F5;
+align-items: center;
+justify-content: space-around;
+}
+.li{
+   height: .8rem;
+   line-height: .8rem;
+}
+.hear{
+ 
+}
+.heard img{
+    transform: scale(.7);
+}
+.heard{
+    width: 100%;
+    height: 3.5rem;
+    border-bottom: 1px solid gainsboro;
+    position: relative;
+}
+.heard img{
+    position: absolute;
+    top: 0rem;
+    left: -.5rem;
+}
+.heard-top{
+    font-size: 0.28rem;
+position: absolute;
+top: .5rem;
+left: 3rem;
+}
+.heard ul {
+    position: absolute;
+    top: 1.3rem;
+    left: 3.2rem;
+}
+.heard ul li{
+    color: #666666;
+    text-align: center;
+    width: 1.2rem;
+margin-left: .1rem;
+   border: 1px solid gainsboro;
+float: left;
+}
+.blue{
+    background-color: aqua;
+}
+.fa{
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    color: #666666;
+
+}
+.green{
+    color: #00CA5E;
+}
+/* .foot img{
+    transform: scale(.5);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+} */
+#footer{
+    /* margin-top: -.5rem;
+    margin-left:-1rem ; */
+    width: 4rem;
+    height: 4rem;
+}
+.foot ul{
+    width: 100%;
+    height: 2rem;
+    background-color: #EEEEEE;
+    position: fixed;
+    bottom: 0;
+    color: #898E95;
+display: flex;
+justify-content: space-around
+}
+.foot ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
