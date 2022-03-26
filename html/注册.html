@@ -1,0 +1,191 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jq/bootstrap.js"></script>
+    <link rel="stylesheet" href="../jq/bootstrap.css">
+</head>
+<style>
+     .list{
+        width: 100%;
+        height: 5rem /* 80px -> 5rem */;
+        margin-bottom: 6.25rem /* 100px -> 6.25rem */;
+        line-height: 5rem /* 80px -> 5rem */;
+    }
+    .list-a{
+        float: left;
+        margin-top: 1rem /* 16px -> 1rem */;
+    }
+    .list-b{
+        float: left;
+        font-size: 1.875rem /* 30px -> 1.875rem */;
+        font-weight: 530;
+        margin-left: 13.75rem /* 220px -> 13.75rem */;
+    }
+    .tuo{
+        width: 100%;
+        height: 13.75rem /* 220px -> 13.75rem */;
+    }
+    .tuo-a{
+        width: 100%;
+        height: 5rem /* 80px -> 5rem */;
+        border-bottom: .125rem /* 2px -> .125rem */ rgb(211, 211, 211) solid;
+    }
+    .tuo-a-a{
+        width: 8.125rem /* 130px -> 8.125rem */;
+        height: 5rem /* 80px -> 5rem */;
+        font-size: 1.625rem /* 26px -> 1.625rem */;
+        font-weight: 500;
+        line-height: 5rem /* 80px -> 5rem */;
+        float: left;
+        color: rgb(48, 48, 48);
+        padding-left: .625rem /* 10px -> .625rem */;
+    }
+    .tuo-a-b{
+        width: 25rem /* 400px -> 25rem */;
+        height: 4.875rem /* 78px -> 4.875rem */;
+        float: left;
+        border: none;
+        outline: none;
+    }
+    .tuo-a img{
+        width: 2.5rem /* 40px -> 2.5rem */;
+        height: 2.5rem /* 40px -> 2.5rem */;
+        float: left;
+        margin-top: 1.25rem /* 20px -> 1.25rem */;
+    }
+    .tuo-b{
+        width: 100%;
+        height: 5rem /* 80px -> 5rem */;
+        border-bottom: .125rem /* 2px -> .125rem */ rgb(211, 211, 211) solid;
+    }
+    .tuo-b-a{
+        width: 8.125rem /* 130px -> 8.125rem */;
+        height: 5rem /* 80px -> 5rem */;
+        font-size: 1.625rem /* 26px -> 1.625rem */;
+        font-weight: 500;
+        line-height: 5rem /* 80px -> 5rem */;
+        float: left;
+        color: rgb(48, 48, 48);
+        padding-left: .625rem /* 10px -> .625rem */;
+    }
+    .tuo-b-b{
+        width: 18.125rem /* 290px -> 18.125rem */;
+        height: 4.875rem /* 78px -> 4.875rem */;
+        float: left;
+        border: none;
+        outline: none;
+    }
+    .tuo-b-c{
+        width: 10rem /* 160px -> 10rem */;
+        height: 3.125rem /* 50px -> 3.125rem */;
+        border-radius: 2%;
+        float: left;
+        background-color: rgb(199, 199, 199);
+        margin-top: .9375rem /* 15px -> .9375rem */;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 3.125rem /* 50px -> 3.125rem */;
+    }
+
+    .tuo-c{
+        width: 100%;
+        height: 5rem /* 80px -> 5rem */;
+        border-bottom: .125rem /* 2px -> .125rem */ rgb(211, 211, 211) solid;
+    }
+    .tuo-c-a{
+        width: 8.125rem /* 130px -> 8.125rem */;
+        height: 5rem /* 80px -> 5rem */;
+        font-size: 1.625rem /* 26px -> 1.625rem */;
+        font-weight: 500;
+        line-height: 5rem /* 80px -> 5rem */;
+        float: left;
+        color: rgb(48, 48, 48);
+        padding-left: .625rem /* 10px -> .625rem */;
+    }
+    .tuo-c-b{
+        width: 22.5rem /* 360px -> 22.5rem */;
+        height: 4.875rem /* 78px -> 4.875rem */;
+        float: left;
+        border: none;
+        outline: none;
+    }
+    .tuo-c img{
+        width: 2.5rem /* 40px -> 2.5rem */;
+        height: 2.5rem /* 40px -> 2.5rem */;
+        float: left;
+        margin-top: 1.25rem /* 20px -> 1.25rem */;
+    }
+
+    .sur{
+        width: 98%;
+        height: 5rem /* 80px -> 5rem */;
+        background-color: rgb(253, 190, 16);
+        margin-left: 1%;
+        border-radius: 2.5%;
+        color: aliceblue;
+        text-align: center;
+        line-height: 5rem /* 80px -> 5rem */;
+        font-size: 2rem /* 32px -> 2rem */;
+        float: left;
+        margin-top: 6.25rem /* 100px -> 6.25rem */;
+    }
+    .for{
+        width: 10rem /* 160px -> 10rem */;
+        height: 3.125rem /* 50px -> 3.125rem */;
+        border-radius: 2%;
+        float: right;
+        background-color: rgb(199, 199, 199);
+        margin-top: 3.125rem /* 50px -> 3.125rem */;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 3.125rem /* 50px -> 3.125rem */;
+        margin-left: 25rem /* 400px -> 25rem */;
+    }
+    .for-a{
+        width: 10rem /* 160px -> 10rem */;
+        height: 3.125rem /* 50px -> 3.125rem */;
+        border-radius: 2%;
+        float: right;
+        background-color: rgb(199, 199, 199);
+        margin-top: .9375rem /* 15px -> .9375rem */;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 3.125rem /* 50px -> 3.125rem */;
+        
+    }
+</style>
+<body>
+    <div class="list">
+        <div class="list-a"><img src="../img/g.png" alt=""></div>
+        <div class="list-b">注册</div>
+       </div>
+       <div class="tuo">
+        <div class="tuo-a">
+            <div class="tuo-a-a">国家/地区</div>
+            <input class="tuo-a-b" type="text"placeholder="中国大陆  86" >
+        </div>
+        <div class="tuo-a">
+            <div class="tuo-a-a">手机号</div>
+            <input class="tuo-a-b" type="text" placeholder="常用手机号" >
+            <img src="../img/M.png" alt="">
+        </div>
+        <div class="tuo-b">
+            <div class="tuo-b-a">验证码</div>
+            <input class="tuo-b-b" type="text" placeholder="短信验证码" >
+            <div class="tuo-b-c">获取验证码</div>
+        </div>
+        <div class="tuo-c">
+            <div class="tuo-c-a">设置密码</div>
+            <input class="tuo-c-b" type="text" placeholder="6~12位大小写字母.数字">
+            <img src="../img/M.png" alt="">
+            <img src="../img/V.png" alt="">
+        </div>
+    </div>
+    <div class="sur">注册</div>
+    <div class="for">重新发送</div>
+    <div class="for-a">60s</div>
+</body>
+</html>

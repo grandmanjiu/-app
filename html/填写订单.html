@@ -1,0 +1,400 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jq/bootstrap.js"></script>
+    <link rel="stylesheet" href="../jq/bootstrap.css">
+</head>
+<style>
+    .list{
+        width: 100%;
+        height: 5rem /* 80px -> 5rem */;
+        background-color: rgb(16, 52, 168);
+    }
+    .list img{
+        width: 7%;
+        height: 2.5rem /* 40px -> 2.5rem */;
+        margin-top: 1.25rem /* 20px -> 1.25rem */;
+        margin-left: 1.25rem /* 20px -> 1.25rem */;
+        float: left;
+    }
+    .list-a{
+        width: 87%;
+        height: 5rem /* 80px -> 5rem */;
+        float: left;
+        color: aliceblue;
+        text-align: center;
+        line-height: 5rem /* 80px -> 5rem */;
+
+    }
+    .one{
+        width: 100%;
+        height: 93.75rem /* 1500px -> 93.75rem */;
+        background-color: #edf1f2;
+    }
+    .tuo{
+        height: 5rem /* 80px -> 5rem */;
+        width: 97%;
+        color: gray;
+        margin-left: 3%;
+        line-height: 6.875rem /* 110px -> 6.875rem */;
+    }
+    .sur{
+        height: 1.875rem /* 30px -> 1.875rem */;
+        width: 97%;
+        color: gray;
+        margin-left: 3%;
+        line-height: 1.875rem /* 30px -> 1.875rem */;
+        font-size: .875rem /* 14px -> .875rem */;
+    }
+    .for{
+        height: 1.875rem /* 30px -> 1.875rem */;
+        width: 67%;
+        color: gray;
+        margin-left: 3%;
+        line-height: 1.875rem /* 30px -> 1.875rem */;
+        font-size: .875rem /* 14px -> .875rem */;
+        float: left;
+    }
+    .five{
+        height: 1.875rem /* 30px -> 1.875rem */;
+        width: 27%;
+        color: gray;
+        line-height: 1.875rem /* 30px -> 1.875rem */;
+        font-size: .875rem /* 14px -> .875rem */;
+        float: left;
+        text-align: right;
+    }
+    .six{
+        width: 92%;
+        height: 11.25rem /* 180px -> 11.25rem */;
+        border:  .0625rem /* 1px -> .0625rem */rgb(171, 183, 184) solid;
+        float: left;
+        margin-left: 3%;
+        border-radius: 2%;
+        margin-top: 1.875rem /* 30px -> 1.875rem */;
+        
+    }
+    .six-a{
+        width: 15%;
+        height: 11.125rem /* 178px -> 11.125rem */;
+        float: left;
+        background-color: white;
+        border-radius: 2%;
+    }
+    .six-a img{
+        width: 4.375rem /* 70px -> 4.375rem */;
+        height: 4.375rem /* 70px -> 4.375rem */;
+        margin-left: .625rem /* 10px -> .625rem */;
+        margin-top: 20%;    
+    }
+    .six-b{
+        width: 85%;
+        height: 11.125rem /* 178px -> 11.125rem */;
+        background-color: white;
+        float: left;
+        border-radius: 2%;
+    }
+    .six-b-a{
+        width: 85%;
+        height: 2.5rem /* 40px -> 2.5rem */;
+        margin-top: 1.875rem /* 30px -> 1.875rem */;
+        float: left;
+        color: rgb(146, 146, 146);
+        font-size: 1.625rem /* 26px -> 1.625rem */;
+        font-weight: 500;
+    }
+    .six-b-b{
+        width: 13%;
+        height: 2.5rem /* 40px -> 2.5rem */;
+        margin-top: 1.875rem /* 30px -> 1.875rem */;
+        float: left;
+        text-align: right;
+        margin-bottom: .625rem /* 10px -> .625rem */;
+    }
+    .six-b-b img{
+        width: 2.5rem /* 40px -> 2.5rem */;
+        height: 2.5rem /* 40px -> 2.5rem */;
+    }
+    .six-b-c{
+        width: 100%;
+        height: 1.875rem /* 30px -> 1.875rem */;
+     
+        float: left;
+        margin-bottom: .3125rem /* 5px -> .3125rem */;
+        color: rgb(184, 184, 184);
+        font-size: 1.25rem /* 20px -> 1.25rem */;
+    }
+    .seven{
+        width: 92%;
+        height: 18.125rem /* 290px -> 18.125rem */;
+        border:  .0625rem /* 1px -> .0625rem */rgb(171, 183, 184) solid;
+        float: left;
+        margin-left: 3%;
+        border-radius: 2%;
+        margin-top: 1.875rem /* 30px -> 1.875rem */;
+        padding-top: 1.25rem /* 20px -> 1.25rem */;
+        background-color: white;
+    }
+    .seven-a{
+        width: 100%;
+        height: 3.75rem /* 60px -> 3.75rem */;
+        line-height: 3.75rem /* 60px -> 3.75rem */;
+
+    }
+    .nou{
+        width: 3.75rem /* 60px -> 3.75rem */;
+        height: 3.75rem /* 60px -> 3.75rem */;
+        margin-left: 1.25rem /* 20px -> 1.25rem */;
+        float: left;
+
+    }
+    .seven-a-a{
+        float: left;
+        color: rgb(146, 146, 146);
+        font-size: 1.625rem /* 26px -> 1.625rem */;
+        font-weight: 500;
+        width: 70%;
+    }
+    .not{
+        width: 2.5rem /* 40px -> 2.5rem */;
+        height: 2.5rem /* 40px -> 2.5rem */;
+        margin-left: 1.875rem /* 30px -> 1.875rem */;
+        margin-top: .625rem /* 10px -> .625rem */;
+        float: left;
+    }
+    .seven-b{
+        padding-left: 5rem /* 80px -> 5rem */;
+    }
+    .seven-b-c{
+        color: rgb(0, 174, 255);
+    }
+    .night{
+        width: 100%;
+        height: 7.5rem /* 120px -> 7.5rem */;
+        margin-top: 1.25rem /* 20px -> 1.25rem */;
+        float: left;
+    }
+    .night img{
+        width: 94%;
+        height: 6.25rem /* 100px -> 6.25rem */;
+        margin-left: .625rem /* 10px -> .625rem */;
+    }
+    .nine{
+        width: 92%;
+        height: 12.5rem /* 200px -> 12.5rem */;
+        border:  .0625rem /* 1px -> .0625rem */rgb(171, 183, 184) solid;
+        float: left;
+        margin-left: 3%;
+        border-radius: 2%;
+        margin-top: 1.875rem /* 30px -> 1.875rem */;
+        background-color: white;
+    }
+    .nine-a{
+        width: 20%;
+        height: 11.25rem /* 180px -> 11.25rem */;
+
+        float: left;
+    }
+    .nine-b{
+        width: 80%;
+        height: 11.25rem /* 180px -> 11.25rem */;
+
+        float: left;
+    }
+    .nine-a img{
+        width: 4.375rem /* 70px -> 4.375rem */;
+        height: 4.375rem /* 70px -> 4.375rem */;
+        margin-left: 1.875rem /* 30px -> 1.875rem */;
+        margin-top: 1rem /* 16px -> 1rem */;
+
+    }
+    .nine-b-a{
+        width: 26.875rem /* 430px -> 26.875rem */;
+        height: 5.625rem /* 90px -> 5.625rem */;
+
+    }
+    .nine-b-b{
+        width: 26.875rem /* 430px -> 26.875rem */;
+        height: 5.625rem /* 90px -> 5.625rem */;
+
+    }
+    .nine-b-a-a{
+        width: 23.125rem /* 370px -> 23.125rem */;
+        height: 3.125rem /* 50px -> 3.125rem */;
+        color: rgb(207, 207, 207);
+        font-size: 1rem /* 16px -> 1rem */;
+        line-height: 4.375rem /* 70px -> 4.375rem */;
+    }
+    .nine-b-a-b{
+        width: 26.875rem /* 430px -> 26.875rem */;
+        height: 2.5rem /* 40px -> 2.5rem */;
+        color: rgb(150, 150, 150);
+        font-size: 1.625rem /* 26px -> 1.625rem */;
+        font-weight: 550;
+    }
+    .nine-b-a-b img{
+        width: 2.5rem /* 40px -> 2.5rem */;
+        height: 2.5rem /* 40px -> 2.5rem */;
+        float: right;
+    }
+    .ten{
+        width: 92%;
+        height: 12.5rem /* 200px -> 12.5rem */;
+        float: left;
+        margin-top: 3.125rem /* 50px -> 3.125rem */;
+        margin-left: 3%;
+           }
+     .ten-a{
+        width: 100%;
+        height: 1.875rem /* 30px -> 1.875rem */;
+      
+        float: left;
+        font-size: .75rem /* 12px -> .75rem */;
+        color: rgb(173, 173, 173);
+           }
+     .ten-b{
+        width: 94%;
+        height: 1.875rem /* 30px -> 1.875rem */;
+        
+        float: left;
+        font-size: .75rem /* 12px -> .75rem */;
+        color: rgb(173, 173, 173);
+        margin-left: 1.875rem /* 30px -> 1.875rem */;
+        margin-bottom: .3125rem /* 5px -> .3125rem */;
+           }
+    .ten-a img{
+        float: left;
+        width: 1.875rem /* 30px -> 1.875rem */;
+        height: 1.875rem /* 30px -> 1.875rem */;
+    }
+    .ten-a span{
+        color: rgb(41, 150, 223);
+    }
+    .end{
+        width: 100%;
+        height: 4.375rem /* 70px -> 4.375rem */;
+        text-align: center;
+        line-height: 4.375rem /* 70px -> 4.375rem */;
+
+    }
+    .lift{
+        width: 60%;
+        height: 4.375rem /* 70px -> 4.375rem */;
+        float: left;
+        color: rgb(146, 146, 146);
+        font-size: .375rem /* 6px -> .375rem */;
+    }
+    .right{
+        width: 40%;
+        height: 4.375rem /* 70px -> 4.375rem */;
+        float: right;
+        color: white;
+        background-color: rgb(255, 145, 2);
+    }
+    .lift span{
+        color: rgb(255, 166, 0);
+        font-size: 1.875rem /* 30px -> 1.875rem */;
+        margin-right: .3125rem /* 5px -> .3125rem */;
+    }
+</style>
+<body>
+    <div class="list">
+        <img src="../img/z.png" alt="">
+        <div class="list-a">订单填写</div>
+    </div>
+    <div class="one">
+        <div class="tuo">三亚5月4日晚半自助游套餐</div>
+        <div class="sur">出发日期：2017-9-10</div>
+        <div class="for">出行人数：3成人</div>
+        <div class="five">预定限制></div>
+     <div class="six">
+            <div class="six-a"><img src="../img/q.png" alt=""></div>
+            <div class="six-b">
+                <div class="six-b-a">去选择出行人</div>
+                <div class="six-b-b"><img src="../img/l.png" alt=""></div>
+                <div class="six-b-c">为了您顺利出行</div>
+                <div class="six-b-c">请务必保持填写项与出游证一致</div>
+            </div>
+           </div>
+           <div class="seven">
+               <div class="seven-a">
+            <img class="nou" src="../img/r.png" alt="">
+             <div class="seven-a-a">苏打苏塔</div>
+             <img class="not"  src="../img/l.png" alt="">
+           </div>
+           <div class="seven-a">
+            <img class="nou" src="../img/u.png" alt="">
+             <div class="seven-a-a">苏大大</div>
+             <img class="not"  src="../img/l.png" alt="">
+           </div>
+           <div class="seven-b">
+            <div class="six-b-c">为了您顺利出行</div>
+            <div class="six-b-c">请务必保持填写项与出游证一致</div>
+            <div class="seven-b-c">更换出行人员></div>
+           </div>
+          </div>
+          <div class="six">
+            <div class="six-a"><img src="../img/uy.png" alt=""></div>
+            <div class="six-b">
+                <div class="six-b-a">联系人信息</div>
+                <div class="six-b-b"><img src="../img/i.png" alt=""></div>
+                <div class="six-b-c">请填写联系人姓名</div>
+                <div class="six-b-c">请填写手机号码123*****986</div>
+            </div>
+           </div>
+
+           <div class="night">
+               <img src="../img/yh.png" alt="">
+           </div>
+
+           <div class="nine">
+             <div class="nine-a">
+                 <img src="../img/re.png" alt="">
+                 <img src="../img/o.png" alt="">
+             </div>
+             <div class="nine-b">
+                 <div class="nine-b-a">
+                     <div class="nine-b-a-a">发票</div>
+                     <div class="nine-b-a-b">不需要发票
+                         <img src="../img/l.png" alt="">
+                     </div>
+                 </div>
+                 <div class="nine-b-b">
+                    <div class="nine-b-a-a">特殊要求</div>
+                    <div class="nine-b-a-b">无
+                        <img src="../img/l.png" alt="">
+                    </div>
+                 </div>
+             </div>
+           </div>
+
+           <div class="ten">
+               <div class="ten-a">
+                   <img src="../img/bm.png" alt="">
+                   航班价格变动频繁,
+               </div>
+               <div class="ten-b">
+              请在提交清单后25分钟内完成支付。
+            </div>
+            <div class="ten-a">
+                <img src="../img/bm.png" alt="">
+                点击下一步并表示已阅读并同意<span>预定须知和重要条款</span>
+            </div>
+            <div class="ten-a">
+                <img src="../img/bm.png" alt="">
+                为支持绿色环保，支持电子合同，若需签注纸质合同
+            </div>
+            <div class="ten-b">
+                请致电客服。
+              </div>
+           </div>
+    </div>
+    <div class="end">
+        <div class="lift"><span>￥6515</span>明细></div>
+        <div class="right">去支付</div>
+    </div>
+</body>
+</html>
